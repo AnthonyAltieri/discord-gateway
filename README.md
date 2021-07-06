@@ -21,7 +21,7 @@ if the bot has been added to the guild (server in the UI) and the channel exists
 ### Health Check
 `GET` `<host>:<port>/api/v1/health`  
 
-Will respond with a `199`
+Will respond with a `200`
   
 # Deployment
 Check `.example.env` for required environment variables
