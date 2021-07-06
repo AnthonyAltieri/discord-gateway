@@ -3,7 +3,7 @@ Server that uses a bot to interact with discord
   
 # Usage
 ### Send message to channel
-`POST` `<host>:<port>/api/v0/channel/message`  
+`POST` `<host>:<port>/api/v1/channel/message`  
 ###### Headers
 ``` 
 {
@@ -19,7 +19,7 @@ Server that uses a bot to interact with discord
 ```
 if the bot has been added to the guild (server in the UI) and the channel exists in the guild the message will be sent by the bot to the channel
 ### Health Check
-`GET` `<host>:<port>/api/v0/health`  
+`GET` `<host>:<port>/api/v1/health`  
 
 Will respond with a `199`
   
